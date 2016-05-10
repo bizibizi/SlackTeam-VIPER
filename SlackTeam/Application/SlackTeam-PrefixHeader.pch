@@ -1,0 +1,19 @@
+//
+//  SlackTeam-PrefixHeader.pch
+//  SlackTeam
+//
+//  Created by IgorBizi@mail.ru on 5/6/16.
+//  Copyright © 2016 IgorBizi@mail.ru. All rights reserved.
+//
+
+#ifndef SlackTeam_PrefixHeader_pch
+#define SlackTeam_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <MagicalRecord/MagicalRecord.h>
+#import <MagicalRecord/MagicalRecord+ShorthandMethods.h>
+#import <Groot/Groot.h>
+
+#endif /* SlackTeam_PrefixHeader_pch */

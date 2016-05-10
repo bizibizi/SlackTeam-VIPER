@@ -1,0 +1,6 @@
+framework module BIZCircularTransition {
+  umbrella header "BIZCircularTransition-umbrella.h"
+
+  export *
+  module * { export * }
+}

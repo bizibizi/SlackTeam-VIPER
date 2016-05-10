@@ -1,0 +1,18 @@
+framework module Groot {
+  umbrella header "Groot-umbrella.h"
+
+  export *
+  module * { export * }
+
+  private header "GRTCompositeUniquingSerializationStrategy.h"
+  private header "GRTInsertSerializationStrategy.h"
+  private header "GRTManagedObjectSerializer.h"
+  private header "GRTSerializationStrategy.h"
+  private header "GRTUniquingSerializationStrategy.h"
+  private header "GRTValueTransformer.h"
+  private header "NSArray+DictionaryTransformer.h"
+  private header "NSAttributeDescription+Groot.h"
+  private header "NSEntityDescription+Groot.h"
+  private header "NSManagedObject+Groot.h"
+  private header "NSPropertyDescription+Groot.h"
+}

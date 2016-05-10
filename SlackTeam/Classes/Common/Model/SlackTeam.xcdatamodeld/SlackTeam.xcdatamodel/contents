@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Automatic">
+    <entity name="Person" representedClassName="SLKPerson" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="Transformable" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="color"/>
+                <entry key="JSONTransformerName" value="Person.StringToColor"/>
+            </userInfo>
+        </attribute>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="profile.email"/>
+            </userInfo>
+        </attribute>
+        <attribute name="fullName" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="profile.real_name"/>
+            </userInfo>
+        </attribute>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="id"/>
+            </userInfo>
+        </attribute>
+        <attribute name="imageURL" optional="YES" attributeType="Transformable" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="profile.image_192"/>
+                <entry key="JSONTransformerName" value="Person.StringToURL"/>
+            </userInfo>
+        </attribute>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="profile.phone"/>
+            </userInfo>
+        </attribute>
+        <attribute name="skype" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="profile.skype"/>
+            </userInfo>
+        </attribute>
+        <attribute name="timezone" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="tz"/>
+            </userInfo>
+        </attribute>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="profile.title"/>
+            </userInfo>
+        </attribute>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="name"/>
+            </userInfo>
+        </attribute>
+        <userInfo>
+            <entry key="identityAttribute" value="id"/>
+        </userInfo>
+    </entity>
+    <elements>
+        <element name="Person" positionX="261" positionY="189" width="128" height="195"/>
+    </elements>
+</model>

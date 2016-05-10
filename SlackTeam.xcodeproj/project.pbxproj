@@ -1,0 +1,904 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7E33D27B1CDCA0C000617009 /* Mogenerator */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7E33D27C1CDCA0C000617009 /* Build configuration list for PBXAggregateTarget "Mogenerator" */;
+			buildPhases = (
+				7E33D27F1CDCA0EF00617009 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Mogenerator;
+			productName = Mogenerator;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		57F21A4157A5A7544BA13D59 /* Pods_SlackTeam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A2259B25B00A0FA4E8BA44 /* Pods_SlackTeam.framework */; };
+		7E01C2AE1CDFCF15003F9691 /* MembersListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E01C2961CDFCF15003F9691 /* MembersListInteractor.m */; };
+		7E01C2AF1CDFCF15003F9691 /* MembersListDataManagerAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E01C2991CDFCF15003F9691 /* MembersListDataManagerAPI.m */; };
+		7E01C2B01CDFCF15003F9691 /* MembersListDataManagerLocal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E01C29B1CDFCF15003F9691 /* MembersListDataManagerLocal.m */; };
+		7E01C2B11CDFCF15003F9691 /* MembersListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E01C2A11CDFCF15003F9691 /* MembersListPresenter.m */; };
+		7E01C2B31CDFCF15003F9691 /* MemberListItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E01C2A61CDFCF15003F9691 /* MemberListItemTableViewCell.m */; };
+		7E01C2B41CDFCF15003F9691 /* MembersListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E01C2A81CDFCF15003F9691 /* MembersListViewController.m */; };
+		7E01C2B61CDFCF15003F9691 /* MembersListWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E01C2AD1CDFCF15003F9691 /* MembersListWireframe.m */; };
+		7E01C2F81CDFD988003F9691 /* UIColor+Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E01C2DA1CDFD988003F9691 /* UIColor+Transform.m */; };
+		7E01C2FE1CDFD988003F9691 /* RoundImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E01C2F01CDFD988003F9691 /* RoundImageView.m */; };
+		7E01C2FF1CDFD988003F9691 /* RootWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E01C2F51CDFD988003F9691 /* RootWireframe.m */; };
+		7E01C3051CDFDB47003F9691 /* AppTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E01C3021CDFDB47003F9691 /* AppTheme.m */; };
+		7E01C3061CDFDB47003F9691 /* UIColor+ThemeColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E01C3041CDFDB47003F9691 /* UIColor+ThemeColors.m */; };
+		7E01C30C1CDFE090003F9691 /* AppDependencies.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E01C30B1CDFE090003F9691 /* AppDependencies.m */; };
+		7E33D2AA1CDCB2A100617009 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E33D2A91CDCB2A100617009 /* AppDelegate.m */; };
+		7E33D2AC1CDCB2F400617009 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E33D2AB1CDCB2F400617009 /* main.m */; };
+		7E33D2C71CDCB40700617009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E33D2C31CDCB40700617009 /* Assets.xcassets */; };
+		7E33D2C81CDCB40700617009 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E33D2C41CDCB40700617009 /* LaunchScreen.storyboard */; };
+		7E33D2C91CDCB40700617009 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E33D2C61CDCB40700617009 /* Main.storyboard */; };
+		7EDF44F81CE0916E000E614B /* MemberDetailInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF44E61CE0916E000E614B /* MemberDetailInteractor.m */; };
+		7EDF44F91CE0916E000E614B /* MemberDetailDataManagerAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF44E91CE0916E000E614B /* MemberDetailDataManagerAPI.m */; };
+		7EDF44FA1CE0916E000E614B /* MemberDetailDataManagerLocal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF44EB1CE0916E000E614B /* MemberDetailDataManagerLocal.m */; };
+		7EDF44FB1CE0916E000E614B /* MemberDetailPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF44F11CE0916E000E614B /* MemberDetailPresenter.m */; };
+		7EDF44FC1CE0916E000E614B /* MemberDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF44F41CE0916E000E614B /* MemberDetailViewController.m */; };
+		7EDF44FD1CE0916E000E614B /* MemberDetailWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF44F71CE0916E000E614B /* MemberDetailWireframe.m */; };
+		7EFB9D151CE1AFD200200E19 /* SlackTeam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7EFB9D0B1CE1AFD200200E19 /* SlackTeam.xcdatamodeld */; };
+		7EFB9D1F1CE1B01000200E19 /* SLKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFB9D1B1CE1B01000200E19 /* SLKPerson.m */; };
+		7EFB9D201CE1B01000200E19 /* _SLKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFB9D1E1CE1B01000200E19 /* _SLKPerson.m */; };
+		7EFB9D261CE1B0E400200E19 /* SLKNetworkManager+SLKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFB9D231CE1B0E400200E19 /* SLKNetworkManager+SLKPerson.m */; };
+		7EFB9D271CE1B0E400200E19 /* SLKNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFB9D251CE1B0E400200E19 /* SLKNetworkManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14A2259B25B00A0FA4E8BA44 /* Pods_SlackTeam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlackTeam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A4494E3645FF25545F3614 /* Pods-SlackTeam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlackTeam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SlackTeam/Pods-SlackTeam.debug.xcconfig"; sourceTree = "<group>"; };
+		7E01C2951CDFCF15003F9691 /* MembersListInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MembersListInteractor.h; sourceTree = "<group>"; };
+		7E01C2961CDFCF15003F9691 /* MembersListInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MembersListInteractor.m; sourceTree = "<group>"; };
+		7E01C2981CDFCF15003F9691 /* MembersListDataManagerAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MembersListDataManagerAPI.h; sourceTree = "<group>"; };
+		7E01C2991CDFCF15003F9691 /* MembersListDataManagerAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MembersListDataManagerAPI.m; sourceTree = "<group>"; };
+		7E01C29A1CDFCF15003F9691 /* MembersListDataManagerLocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MembersListDataManagerLocal.h; sourceTree = "<group>"; };
+		7E01C29B1CDFCF15003F9691 /* MembersListDataManagerLocal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MembersListDataManagerLocal.m; sourceTree = "<group>"; };
+		7E01C29D1CDFCF15003F9691 /* MembersListProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MembersListProtocols.h; sourceTree = "<group>"; };
+		7E01C2A01CDFCF15003F9691 /* MembersListPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MembersListPresenter.h; sourceTree = "<group>"; };
+		7E01C2A11CDFCF15003F9691 /* MembersListPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MembersListPresenter.m; sourceTree = "<group>"; };
+		7E01C2A51CDFCF15003F9691 /* MemberListItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberListItemTableViewCell.h; sourceTree = "<group>"; };
+		7E01C2A61CDFCF15003F9691 /* MemberListItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberListItemTableViewCell.m; sourceTree = "<group>"; };
+		7E01C2A71CDFCF15003F9691 /* MembersListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MembersListViewController.h; sourceTree = "<group>"; };
+		7E01C2A81CDFCF15003F9691 /* MembersListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MembersListViewController.m; sourceTree = "<group>"; };
+		7E01C2AC1CDFCF15003F9691 /* MembersListWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MembersListWireframe.h; sourceTree = "<group>"; };
+		7E01C2AD1CDFCF15003F9691 /* MembersListWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MembersListWireframe.m; sourceTree = "<group>"; };
+		7E01C2D91CDFD988003F9691 /* UIColor+Transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Transform.h"; sourceTree = "<group>"; };
+		7E01C2DA1CDFD988003F9691 /* UIColor+Transform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Transform.m"; sourceTree = "<group>"; };
+		7E01C2EF1CDFD988003F9691 /* RoundImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundImageView.h; sourceTree = "<group>"; };
+		7E01C2F01CDFD988003F9691 /* RoundImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundImageView.m; sourceTree = "<group>"; };
+		7E01C2F41CDFD988003F9691 /* RootWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootWireframe.h; sourceTree = "<group>"; };
+		7E01C2F51CDFD988003F9691 /* RootWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootWireframe.m; sourceTree = "<group>"; };
+		7E01C3011CDFDB47003F9691 /* AppTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppTheme.h; sourceTree = "<group>"; };
+		7E01C3021CDFDB47003F9691 /* AppTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppTheme.m; sourceTree = "<group>"; };
+		7E01C3031CDFDB47003F9691 /* UIColor+ThemeColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ThemeColors.h"; sourceTree = "<group>"; };
+		7E01C3041CDFDB47003F9691 /* UIColor+ThemeColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ThemeColors.m"; sourceTree = "<group>"; };
+		7E01C30A1CDFE090003F9691 /* AppDependencies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDependencies.h; path = Application/AppDependencies.h; sourceTree = "<group>"; };
+		7E01C30B1CDFE090003F9691 /* AppDependencies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDependencies.m; path = Application/AppDependencies.m; sourceTree = "<group>"; };
+		7E33D2A81CDCB2A100617009 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Application/AppDelegate.h; sourceTree = "<group>"; };
+		7E33D2A91CDCB2A100617009 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Application/AppDelegate.m; sourceTree = "<group>"; };
+		7E33D2AB1CDCB2F400617009 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Application/main.m; sourceTree = "<group>"; };
+		7E33D2AD1CDCB30A00617009 /* SlackTeam-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SlackTeam-PrefixHeader.pch"; path = "Application/SlackTeam-PrefixHeader.pch"; sourceTree = "<group>"; };
+		7E33D2AE1CDCB34700617009 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Application/Info.plist; sourceTree = "<group>"; };
+		7E33D2C31CDCB40700617009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E33D2C41CDCB40700617009 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E33D2C61CDCB40700617009 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7E7B5DA91CDC8899008B1A67 /* SlackTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlackTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EDF44E51CE0916E000E614B /* MemberDetailInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberDetailInteractor.h; sourceTree = "<group>"; };
+		7EDF44E61CE0916E000E614B /* MemberDetailInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberDetailInteractor.m; sourceTree = "<group>"; };
+		7EDF44E81CE0916E000E614B /* MemberDetailDataManagerAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberDetailDataManagerAPI.h; sourceTree = "<group>"; };
+		7EDF44E91CE0916E000E614B /* MemberDetailDataManagerAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberDetailDataManagerAPI.m; sourceTree = "<group>"; };
+		7EDF44EA1CE0916E000E614B /* MemberDetailDataManagerLocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberDetailDataManagerLocal.h; sourceTree = "<group>"; };
+		7EDF44EB1CE0916E000E614B /* MemberDetailDataManagerLocal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberDetailDataManagerLocal.m; sourceTree = "<group>"; };
+		7EDF44ED1CE0916E000E614B /* MemberDetailProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberDetailProtocols.h; sourceTree = "<group>"; };
+		7EDF44F01CE0916E000E614B /* MemberDetailPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberDetailPresenter.h; sourceTree = "<group>"; };
+		7EDF44F11CE0916E000E614B /* MemberDetailPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberDetailPresenter.m; sourceTree = "<group>"; };
+		7EDF44F31CE0916E000E614B /* MemberDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberDetailViewController.h; sourceTree = "<group>"; };
+		7EDF44F41CE0916E000E614B /* MemberDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberDetailViewController.m; sourceTree = "<group>"; };
+		7EDF44F61CE0916E000E614B /* MemberDetailWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberDetailWireframe.h; sourceTree = "<group>"; };
+		7EDF44F71CE0916E000E614B /* MemberDetailWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberDetailWireframe.m; sourceTree = "<group>"; };
+		7EFB9D0C1CE1AFD200200E19 /* SlackTeam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SlackTeam.xcdatamodel; sourceTree = "<group>"; };
+		7EFB9D1A1CE1B01000200E19 /* SLKPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKPerson.h; sourceTree = "<group>"; };
+		7EFB9D1B1CE1B01000200E19 /* SLKPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKPerson.m; sourceTree = "<group>"; };
+		7EFB9D1D1CE1B01000200E19 /* _SLKPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _SLKPerson.h; sourceTree = "<group>"; };
+		7EFB9D1E1CE1B01000200E19 /* _SLKPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _SLKPerson.m; sourceTree = "<group>"; };
+		7EFB9D221CE1B0E400200E19 /* SLKNetworkManager+SLKPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SLKNetworkManager+SLKPerson.h"; sourceTree = "<group>"; };
+		7EFB9D231CE1B0E400200E19 /* SLKNetworkManager+SLKPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SLKNetworkManager+SLKPerson.m"; sourceTree = "<group>"; };
+		7EFB9D241CE1B0E400200E19 /* SLKNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKNetworkManager.h; sourceTree = "<group>"; };
+		7EFB9D251CE1B0E400200E19 /* SLKNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKNetworkManager.m; sourceTree = "<group>"; };
+		A4338199D6DC6DF94C71D7A0 /* Pods-SlackTeam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlackTeam.release.xcconfig"; path = "Pods/Target Support Files/Pods-SlackTeam/Pods-SlackTeam.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E7B5DA61CDC8899008B1A67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F21A4157A5A7544BA13D59 /* Pods_SlackTeam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E01C2921CDFCF15003F9691 /* MembersList */ = {
+			isa = PBXGroup;
+			children = (
+				7E01C2931CDFCF15003F9691 /* Application Logic */,
+				7E01C29C1CDFCF15003F9691 /* Module Interface */,
+				7E01C29E1CDFCF15003F9691 /* User Interface */,
+			);
+			path = MembersList;
+			sourceTree = "<group>";
+		};
+		7E01C2931CDFCF15003F9691 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				7E01C2941CDFCF15003F9691 /* Interactor */,
+				7E01C2971CDFCF15003F9691 /* Manager */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		7E01C2941CDFCF15003F9691 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				7E01C2951CDFCF15003F9691 /* MembersListInteractor.h */,
+				7E01C2961CDFCF15003F9691 /* MembersListInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		7E01C2971CDFCF15003F9691 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				7E01C2981CDFCF15003F9691 /* MembersListDataManagerAPI.h */,
+				7E01C2991CDFCF15003F9691 /* MembersListDataManagerAPI.m */,
+				7E01C29A1CDFCF15003F9691 /* MembersListDataManagerLocal.h */,
+				7E01C29B1CDFCF15003F9691 /* MembersListDataManagerLocal.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		7E01C29C1CDFCF15003F9691 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+				7E01C29D1CDFCF15003F9691 /* MembersListProtocols.h */,
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		7E01C29E1CDFCF15003F9691 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				7E01C29F1CDFCF15003F9691 /* Presenter */,
+				7E01C2A21CDFCF15003F9691 /* View */,
+				7E01C2AB1CDFCF15003F9691 /* Wireframe */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		7E01C29F1CDFCF15003F9691 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7E01C2A01CDFCF15003F9691 /* MembersListPresenter.h */,
+				7E01C2A11CDFCF15003F9691 /* MembersListPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7E01C2A21CDFCF15003F9691 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E01C2A51CDFCF15003F9691 /* MemberListItemTableViewCell.h */,
+				7E01C2A61CDFCF15003F9691 /* MemberListItemTableViewCell.m */,
+				7E01C2A71CDFCF15003F9691 /* MembersListViewController.h */,
+				7E01C2A81CDFCF15003F9691 /* MembersListViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E01C2AB1CDFCF15003F9691 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				7E01C2AC1CDFCF15003F9691 /* MembersListWireframe.h */,
+				7E01C2AD1CDFCF15003F9691 /* MembersListWireframe.m */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		7E01C2D71CDFD988003F9691 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7E01C3001CDFDB47003F9691 /* AppTheme */,
+				7E01C2D81CDFD988003F9691 /* Categories */,
+				7EFB9D281CE1B16900200E19 /* EntireModules */,
+				7EFB9D081CE1AFD200200E19 /* Model */,
+				7EFB9D211CE1B0E400200E19 /* NetworkInterface */,
+				7E01C2E81CDFD988003F9691 /* SeparatedModules */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7E01C2D81CDFD988003F9691 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				7E01C2D91CDFD988003F9691 /* UIColor+Transform.h */,
+				7E01C2DA1CDFD988003F9691 /* UIColor+Transform.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		7E01C2E81CDFD988003F9691 /* SeparatedModules */ = {
+			isa = PBXGroup;
+			children = (
+				7E01C2E91CDFD988003F9691 /* Application Logic */,
+				7E01C2EC1CDFD988003F9691 /* Module Interface */,
+				7E01C2ED1CDFD988003F9691 /* User Interface */,
+			);
+			path = SeparatedModules;
+			sourceTree = "<group>";
+		};
+		7E01C2E91CDFD988003F9691 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				7E01C2EA1CDFD988003F9691 /* Interactor */,
+				7E01C2EB1CDFD988003F9691 /* Manager */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		7E01C2EA1CDFD988003F9691 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		7E01C2EB1CDFD988003F9691 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		7E01C2EC1CDFD988003F9691 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		7E01C2ED1CDFD988003F9691 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				7E01C2EE1CDFD988003F9691 /* Component */,
+				7E01C2F11CDFD988003F9691 /* Presenter */,
+				7E01C2F21CDFD988003F9691 /* View */,
+				7E01C2F31CDFD988003F9691 /* Wireframe */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		7E01C2EE1CDFD988003F9691 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				7E01C2EF1CDFD988003F9691 /* RoundImageView.h */,
+				7E01C2F01CDFD988003F9691 /* RoundImageView.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		7E01C2F11CDFD988003F9691 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7E01C2F21CDFD988003F9691 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E01C2F31CDFD988003F9691 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				7E01C2F41CDFD988003F9691 /* RootWireframe.h */,
+				7E01C2F51CDFD988003F9691 /* RootWireframe.m */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		7E01C3001CDFDB47003F9691 /* AppTheme */ = {
+			isa = PBXGroup;
+			children = (
+				7E01C3011CDFDB47003F9691 /* AppTheme.h */,
+				7E01C3021CDFDB47003F9691 /* AppTheme.m */,
+				7E01C3031CDFDB47003F9691 /* UIColor+ThemeColors.h */,
+				7E01C3041CDFDB47003F9691 /* UIColor+ThemeColors.m */,
+			);
+			path = AppTheme;
+			sourceTree = "<group>";
+		};
+		7E33D2C21CDCB40700617009 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E33D2C31CDCB40700617009 /* Assets.xcassets */,
+				7E33D2C41CDCB40700617009 /* LaunchScreen.storyboard */,
+				7E33D2C51CDCB40700617009 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7E33D2C51CDCB40700617009 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7E33D2C61CDCB40700617009 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7E33D2CA1CDCB43A00617009 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7E01C2D71CDFD988003F9691 /* Common */,
+				7ED4E92A1CDCBB6D0047ED85 /* Modules */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7E7B5DA01CDC8899008B1A67 = {
+			isa = PBXGroup;
+			children = (
+				7E7B5DAB1CDC8899008B1A67 /* SlackTeam */,
+				7E7B5DAA1CDC8899008B1A67 /* Products */,
+				86F18D8BECE4C01564CBA9AA /* Pods */,
+				D57EE628B9F38982DB3E0518 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E7B5DAA1CDC8899008B1A67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E7B5DA91CDC8899008B1A67 /* SlackTeam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E7B5DAB1CDC8899008B1A67 /* SlackTeam */ = {
+			isa = PBXGroup;
+			children = (
+				7E7B5DAC1CDC8899008B1A67 /* Application */,
+				7E33D2CA1CDCB43A00617009 /* Classes */,
+				7E33D2C21CDCB40700617009 /* Resources */,
+			);
+			path = SlackTeam;
+			sourceTree = "<group>";
+		};
+		7E7B5DAC1CDC8899008B1A67 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				7E33D2A81CDCB2A100617009 /* AppDelegate.h */,
+				7E33D2A91CDCB2A100617009 /* AppDelegate.m */,
+				7E01C30A1CDFE090003F9691 /* AppDependencies.h */,
+				7E01C30B1CDFE090003F9691 /* AppDependencies.m */,
+				7E33D2AD1CDCB30A00617009 /* SlackTeam-PrefixHeader.pch */,
+				7E33D2AB1CDCB2F400617009 /* main.m */,
+				7E33D2AE1CDCB34700617009 /* Info.plist */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		7ED4E92A1CDCBB6D0047ED85 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7EDF44E21CE0916E000E614B /* MemberDetail */,
+				7E01C2921CDFCF15003F9691 /* MembersList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		7EDF44E21CE0916E000E614B /* MemberDetail */ = {
+			isa = PBXGroup;
+			children = (
+				7EDF44E31CE0916E000E614B /* Application Logic */,
+				7EDF44EC1CE0916E000E614B /* Module Interface */,
+				7EDF44EE1CE0916E000E614B /* User Interface */,
+			);
+			path = MemberDetail;
+			sourceTree = "<group>";
+		};
+		7EDF44E31CE0916E000E614B /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				7EDF44E41CE0916E000E614B /* Interactor */,
+				7EDF44E71CE0916E000E614B /* Manager */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		7EDF44E41CE0916E000E614B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				7EDF44E51CE0916E000E614B /* MemberDetailInteractor.h */,
+				7EDF44E61CE0916E000E614B /* MemberDetailInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		7EDF44E71CE0916E000E614B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				7EDF44E81CE0916E000E614B /* MemberDetailDataManagerAPI.h */,
+				7EDF44E91CE0916E000E614B /* MemberDetailDataManagerAPI.m */,
+				7EDF44EA1CE0916E000E614B /* MemberDetailDataManagerLocal.h */,
+				7EDF44EB1CE0916E000E614B /* MemberDetailDataManagerLocal.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		7EDF44EC1CE0916E000E614B /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+				7EDF44ED1CE0916E000E614B /* MemberDetailProtocols.h */,
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		7EDF44EE1CE0916E000E614B /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				7EDF44EF1CE0916E000E614B /* Presenter */,
+				7EDF44F21CE0916E000E614B /* View */,
+				7EDF44F51CE0916E000E614B /* Wireframe */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		7EDF44EF1CE0916E000E614B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7EDF44F01CE0916E000E614B /* MemberDetailPresenter.h */,
+				7EDF44F11CE0916E000E614B /* MemberDetailPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7EDF44F21CE0916E000E614B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7EDF44F31CE0916E000E614B /* MemberDetailViewController.h */,
+				7EDF44F41CE0916E000E614B /* MemberDetailViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7EDF44F51CE0916E000E614B /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				7EDF44F61CE0916E000E614B /* MemberDetailWireframe.h */,
+				7EDF44F71CE0916E000E614B /* MemberDetailWireframe.m */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		7EFB9D081CE1AFD200200E19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7EFB9D191CE1B01000200E19 /* Entities */,
+				7EFB9D1C1CE1B01000200E19 /* Generated */,
+				7EFB9D0B1CE1AFD200200E19 /* SlackTeam.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7EFB9D191CE1B01000200E19 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				7EFB9D1A1CE1B01000200E19 /* SLKPerson.h */,
+				7EFB9D1B1CE1B01000200E19 /* SLKPerson.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		7EFB9D1C1CE1B01000200E19 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				7EFB9D1D1CE1B01000200E19 /* _SLKPerson.h */,
+				7EFB9D1E1CE1B01000200E19 /* _SLKPerson.m */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		7EFB9D211CE1B0E400200E19 /* NetworkInterface */ = {
+			isa = PBXGroup;
+			children = (
+				7EFB9D221CE1B0E400200E19 /* SLKNetworkManager+SLKPerson.h */,
+				7EFB9D231CE1B0E400200E19 /* SLKNetworkManager+SLKPerson.m */,
+				7EFB9D241CE1B0E400200E19 /* SLKNetworkManager.h */,
+				7EFB9D251CE1B0E400200E19 /* SLKNetworkManager.m */,
+			);
+			path = NetworkInterface;
+			sourceTree = "<group>";
+		};
+		7EFB9D281CE1B16900200E19 /* EntireModules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EntireModules;
+			sourceTree = "<group>";
+		};
+		86F18D8BECE4C01564CBA9AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54A4494E3645FF25545F3614 /* Pods-SlackTeam.debug.xcconfig */,
+				A4338199D6DC6DF94C71D7A0 /* Pods-SlackTeam.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D57EE628B9F38982DB3E0518 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14A2259B25B00A0FA4E8BA44 /* Pods_SlackTeam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E7B5DA81CDC8899008B1A67 /* SlackTeam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7B5DC61CDC8899008B1A67 /* Build configuration list for PBXNativeTarget "SlackTeam" */;
+			buildPhases = (
+				8C37BC53C07213F5BB30F22F /* Check Pods Manifest.lock */,
+				7E7B5DA51CDC8899008B1A67 /* Sources */,
+				7E7B5DA61CDC8899008B1A67 /* Frameworks */,
+				7E7B5DA71CDC8899008B1A67 /* Resources */,
+				2FFF3CD0513C5DCA4C4FF059 /* Embed Pods Frameworks */,
+				C597F7D2C4DC68469BFDF9FE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlackTeam;
+			productName = SlackTeam;
+			productReference = 7E7B5DA91CDC8899008B1A67 /* SlackTeam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E7B5DA11CDC8899008B1A67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "IgorBizi@mail.ru";
+				TargetAttributes = {
+					7E33D27B1CDCA0C000617009 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					7E7B5DA81CDC8899008B1A67 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 7E7B5DA41CDC8899008B1A67 /* Build configuration list for PBXProject "SlackTeam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E7B5DA01CDC8899008B1A67;
+			productRefGroup = 7E7B5DAA1CDC8899008B1A67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E7B5DA81CDC8899008B1A67 /* SlackTeam */,
+				7E33D27B1CDCA0C000617009 /* Mogenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E7B5DA71CDC8899008B1A67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E33D2C81CDCB40700617009 /* LaunchScreen.storyboard in Resources */,
+				7E33D2C71CDCB40700617009 /* Assets.xcassets in Resources */,
+				7E33D2C91CDCB40700617009 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FFF3CD0513C5DCA4C4FF059 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlackTeam/Pods-SlackTeam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E33D27F1CDCA0EF00617009 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mogenerator -m SlackTeam/Classes/Common/Model/SlackTeam.xcdatamodeld/SlackTeam.xcdatamodel -M SlackTeam/Classes/Common/Model/Generated -H SlackTeam/Classes/Common/Model/Entities --template-var arc=true --template-var literals=true --template-var modules=true";
+		};
+		8C37BC53C07213F5BB30F22F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C597F7D2C4DC68469BFDF9FE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlackTeam/Pods-SlackTeam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E7B5DA51CDC8899008B1A67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E01C2FE1CDFD988003F9691 /* RoundImageView.m in Sources */,
+				7EFB9D271CE1B0E400200E19 /* SLKNetworkManager.m in Sources */,
+				7E01C2B11CDFCF15003F9691 /* MembersListPresenter.m in Sources */,
+				7EFB9D261CE1B0E400200E19 /* SLKNetworkManager+SLKPerson.m in Sources */,
+				7EFB9D151CE1AFD200200E19 /* SlackTeam.xcdatamodeld in Sources */,
+				7E01C3061CDFDB47003F9691 /* UIColor+ThemeColors.m in Sources */,
+				7E01C2B41CDFCF15003F9691 /* MembersListViewController.m in Sources */,
+				7EDF44F91CE0916E000E614B /* MemberDetailDataManagerAPI.m in Sources */,
+				7E01C30C1CDFE090003F9691 /* AppDependencies.m in Sources */,
+				7EDF44FA1CE0916E000E614B /* MemberDetailDataManagerLocal.m in Sources */,
+				7E33D2AA1CDCB2A100617009 /* AppDelegate.m in Sources */,
+				7E01C2B01CDFCF15003F9691 /* MembersListDataManagerLocal.m in Sources */,
+				7EDF44F81CE0916E000E614B /* MemberDetailInteractor.m in Sources */,
+				7E01C2F81CDFD988003F9691 /* UIColor+Transform.m in Sources */,
+				7E01C2AF1CDFCF15003F9691 /* MembersListDataManagerAPI.m in Sources */,
+				7E01C2FF1CDFD988003F9691 /* RootWireframe.m in Sources */,
+				7E01C3051CDFDB47003F9691 /* AppTheme.m in Sources */,
+				7EFB9D1F1CE1B01000200E19 /* SLKPerson.m in Sources */,
+				7E01C2AE1CDFCF15003F9691 /* MembersListInteractor.m in Sources */,
+				7EDF44FD1CE0916E000E614B /* MemberDetailWireframe.m in Sources */,
+				7EDF44FC1CE0916E000E614B /* MemberDetailViewController.m in Sources */,
+				7E01C2B61CDFCF15003F9691 /* MembersListWireframe.m in Sources */,
+				7EFB9D201CE1B01000200E19 /* _SLKPerson.m in Sources */,
+				7EDF44FB1CE0916E000E614B /* MemberDetailPresenter.m in Sources */,
+				7E01C2B31CDFCF15003F9691 /* MemberListItemTableViewCell.m in Sources */,
+				7E33D2AC1CDCB2F400617009 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7E33D27D1CDCA0C000617009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E33D27E1CDCA0C000617009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7E7B5DC41CDC8899008B1A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E7B5DC51CDC8899008B1A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E7B5DC71CDC8899008B1A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54A4494E3645FF25545F3614 /* Pods-SlackTeam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/SlackTeam/Application/SlackTeam-PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/SlackTeam/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.igorbizi.SlackTeam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E7B5DC81CDC8899008B1A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4338199D6DC6DF94C71D7A0 /* Pods-SlackTeam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/SlackTeam/Application/SlackTeam-PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/SlackTeam/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.igorbizi.SlackTeam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E33D27C1CDCA0C000617009 /* Build configuration list for PBXAggregateTarget "Mogenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E33D27D1CDCA0C000617009 /* Debug */,
+				7E33D27E1CDCA0C000617009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7B5DA41CDC8899008B1A67 /* Build configuration list for PBXProject "SlackTeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7B5DC41CDC8899008B1A67 /* Debug */,
+				7E7B5DC51CDC8899008B1A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7B5DC61CDC8899008B1A67 /* Build configuration list for PBXNativeTarget "SlackTeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7B5DC71CDC8899008B1A67 /* Debug */,
+				7E7B5DC81CDC8899008B1A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7EFB9D0B1CE1AFD200200E19 /* SlackTeam.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7EFB9D0C1CE1AFD200200E19 /* SlackTeam.xcdatamodel */,
+			);
+			currentVersion = 7EFB9D0C1CE1AFD200200E19 /* SlackTeam.xcdatamodel */;
+			path = SlackTeam.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7E7B5DA11CDC8899008B1A67 /* Project object */;
+}
